@@ -1,0 +1,21 @@
+{
+  "name": "hudl_playwright",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "playwright": "^1.52.0"
+  },
+  "devDependencies": {
+    "eslint": "8.45.0",
+    "@playwright/test": "^1.52.0",
+    "prettier": "2.8.4",
+    "@types/node": "^22.15.2"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "prettier": "prettier  --config .prettierrc.json --write .",
+    "test": "cypress run -b chrome --spec 'cypress/e2e/**/*.cy.js'"
+  }
+}

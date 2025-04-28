@@ -1,0 +1,12 @@
+{
+  "extends": [],
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "sourceType": "module"
+  },
+  "root": true,
+  "rules": {
+    "no-console": ["warn", { "allow": ["warn", "error"] }],
+    "import/extensions": 0
+  }
+}
